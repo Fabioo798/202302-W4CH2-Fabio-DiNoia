@@ -1,9 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
+
 import './App.css';
 import { Header } from "../header/header";
 import { Menu } from '../menu/menu';
-import HomePage from '../../../feature/home/page/home';
+
 import { AppRouter } from '../router/app.route';
 
 
