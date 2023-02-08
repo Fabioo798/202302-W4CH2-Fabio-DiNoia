@@ -1,13 +1,5 @@
 import { ReactElement } from "react";
 
-interface FormData {
-  name: string;
-  lastName: string;
-  birthday: string;
-  gender: string;
-  email: string;
-  newsletter: boolean;
-}
 
 export function Step2Page(): ReactElement {
   const formData = localStorage.getItem("formData");
