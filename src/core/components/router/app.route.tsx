@@ -2,7 +2,7 @@ import { Navigate, Route, Routes } from "react-router-dom";
 import { MenuOption } from "../app/App";
 import { Suspense, lazy } from "react";
 const Home = lazy(() => import("../../../feature/home/page/home"));
-const Todo = lazy(() => import("../../../feature/step2/page/page2"));
+const Todo = lazy(() => import("../../../feature/step2/page2"));
 const About = lazy(() => import("../../../feature/step3/page/page3"));
 
 type AppRouterProps = {
